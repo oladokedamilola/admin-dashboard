@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dasboard</title>
+
+    <!--- Custom CSS --->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!--- FavIcon --->
+    <link rel="shortcut icon" href="fav.png" type="image/x-icon">
+
+    <!--- Google fonts --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <!--- Google material icon --->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+</head>
+<body>
+    <div class="grid-container">
+
+        <!--- Header Bar --->
+        <header class="header">
+            <div class="menu-icon" onclick="openSidebar()">
+                <span class="material-icons-outlined">menu</span>
+            </div>
+            <div class="header-left">
+                <span class="material-icons-outlined">search</span>
+            </div>
+            <div class="header-right">
+                <span class="material-icons-outlined">notifications</span>
+                <span class="material-icons-outlined">email</span>
+                <span class="material-icons-outlined">account_circle</span>
+            </div>
+
+
+        </header>
+        <!--- Header End --->
+
+        <!--- SideBar --->
+        <aside id="sidebar">
+            <div class="sidebar-title">
+                <div class="sidebar-brand">
+                    <span class="material-icons-outlined">shopping_cart</span>STORE
+                </div>
+                <span class="material-icons-outlined" onclick="closeSidebar()">close</span>
+            </div>
+
+            <ul class="sidebarlist">
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">dashboard</span> Dashboard
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">inventory_2</span> Products
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">category</span> Categories
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">groups</span> Customers
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">fact_check</span>Inventory
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">poll</span> Reports
+                </li>
+                <li class="sidebar-list-item">
+                    <span class="material-icons-outlined">settings</span> Settings
+                </li>
+            </ul>
+
+
+        </aside>
+        <!--- SideBar End --->
+
+
+        <!---Main --->
+        <main class="main-container">
+            <div class="main-title">
+                <h2>Dashboard</h2>
+            </div>
+
+            <div class="main-cards">
+                <div class="card">
+                    <div class="cards-inner">
+                        <h3>PRODUCT</h3>
+                        <span class="material-icons-outlined">inventory_2</span>
+                        <h2>243</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cards-inner">
+                        <h3>CATEGORIES</h3>
+                            <span class="material-icons-outlined">category</span>
+                        <h2>1032</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cards-inner">
+                        <h3>CUSTOMERS</h3>
+                            <span class="material-icons-outlined">groups</span>
+                        <h2>1500</h2>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="cards-inner">
+                        <h3>ALERTS</h3>
+                            <span class="material-icons-outlined">notification_important</span>
+                        <h2>30</h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="charts">
+                <div class="charts-card">
+                    <h2 class="chart-title">Top 5 Products</h2>
+                    <div id="bar-chart"></div>
+                </div>
+                <div class="charts-card">
+                    <h2 class="chart-title">Purchase and Sales Orders</h2>
+                    <div id="area-chart"></div>
+                </div>
+            </div>
+
+        </main>
+        <!--- Main End --->
+
+    </div>
+
+
+
+   <!--- Apex Charts --->
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts@4.0.0/dist/apexcharts.min.js" integrity="sha256-lxq7SgtEqX+EEzp8D7xQpwOf4WzSQRNQELUpuXT3F/Q=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
