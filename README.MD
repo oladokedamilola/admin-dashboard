@@ -15,6 +15,7 @@ This is a responsive Admin Dashboard created using **HTML**, **CSS**, and **Java
 
 ### Full Dashboard View
 ![Full Dashboard View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH1.png?raw=true)
+
 ![Full Dashboard View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH2.png?raw=true)
 
 ### Sidebar Expanded
