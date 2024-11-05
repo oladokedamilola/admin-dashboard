@@ -18,8 +18,10 @@ This is a responsive Admin Dashboard created using **HTML**, **CSS**, and **Java
 
 ![Full Dashboard View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH2.png?raw=true)
 
-### Sidebar Expanded
-![Sidebar Expanded](screenshots/sidebar-expanded.png)
+### Sidebar view in medium screen size
+![Sidebar Expanded](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH3.png?raw=true)
+
+![Sidebar Expanded](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH9.png?raw=true)
 
 ### Responsive Mobile View
 ![Mobile View](screenshots/mobile-view.png)
