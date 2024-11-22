@@ -37,6 +37,7 @@ body{
 }
 .menu-icon{
     display: none;
+    cursor: pointer;
 }
 
 
@@ -46,8 +47,10 @@ body{
     background-color: #263043;
     overflow-y: auto;
     height: 100%;
-    transition: all 0.3s;
+    transition: transform 0.5s ease, width 0.5s ease; /* Add transition */
     -webkit-transition: all 0.3s;
+    transform: translateX(0); /* Default position when visible */
+
 }
 .sidebar-title{
     display: flex;
@@ -58,6 +61,7 @@ body{
 }
 .sidebar-title > span{
     display: none;
+    cursor: pointer;
 }   
 .sidebar-brand{
     margin-top: 15px;
@@ -82,6 +86,10 @@ body{
     display: inline !important;
     position: absolute;
     z-index: 12 !important;
+    transform: translateX(-260px);
+    transition: transform 0.5s ease, width 0.5s ease; /* Match the base transition */
+    width: 260px; /* Keep the width consistent */
+
 }
 
 

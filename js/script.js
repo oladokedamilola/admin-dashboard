@@ -1,22 +1,34 @@
 /// Sidebar Toggle
 
-var openSidebar = false
-var sidebar= document.getElementById("sidebar")
+let isSidebarOpen = false; // Track the sidebar state
+const sidebar = document.getElementById("sidebar");
 
-
-function openSidebar (){
-    if (openSidebar) {
-        sidebar.classList.add("sidebar-responsive")
-        openSidebar = true
+function openSidebar() {
+    if (!isSidebarOpen) { // If sidebar is closed
+        sidebar.classList.add("sidebar-responsive");
+        isSidebarOpen = true; // Mark as open
     }
 }
 
-function closeSidebar (){
-    if (openSidebar) {
-        sidebar.classList.remove("sidebar-responsive")
-        openSidebar = false
+function closeSidebar() {
+    if (isSidebarOpen) { // If sidebar is open
+        sidebar.classList.remove("sidebar-responsive");
+        isSidebarOpen = false; // Mark as closed
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /////// CHARTS ////////
 
