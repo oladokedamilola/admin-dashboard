@@ -14,15 +14,27 @@ This is a responsive Admin Dashboard created using **HTML**, **CSS**, and **Java
 ## Screenshots
 
 ### Full Dashboard View
-![Full Dashboard View](screenshots/full-dashboard.png)
+![Full Dashboard View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH1.png?raw=true)
 
-### Sidebar Expanded
-![Sidebar Expanded](screenshots/sidebar-expanded.png)
+![Full Dashboard View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH2.png?raw=true)
+
+### Sidebar view in medium screen size
+![Sidebar Expanded](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH3.png?raw=true)
+
+![Sidebar Expanded](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH9.png?raw=true)
 
 ### Responsive Mobile View
-![Mobile View](screenshots/mobile-view.png)
+![Mobile View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH4.png?raw=true)
 
-*Place your screenshots in a `screenshots` folder in the root directory.*
+![Mobile View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH5.png?raw=true)
+
+![Mobile View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH6.png?raw=true)
+
+![Mobile View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH7.png?raw=true)
+
+![Mobile View](https://github.com/oladokedamilola/admin-dashboard/blob/main/DASH8.png?raw=true)
+
+
 
 ## Setup
 
